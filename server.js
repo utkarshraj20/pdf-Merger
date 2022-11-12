@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 app.post('/merge', upload.array('pdfs', 2), async (req, res, next)=> {
   console.log(req.files)
   let d = await mergePdfs(path.join(__dirname, req.files[0].path), path.join(__dirname, req.files[1].path))
-  res.redirect(`http://localhost:${PORT}/static/${d}.pdf`)
+  res.redirect(`https://pdf-merger.onrender.com/static/${d}.pdf`)
 })
 
 
