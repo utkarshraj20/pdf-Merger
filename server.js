@@ -22,6 +22,6 @@ app.post('/merge', upload.array('pdfs', 2), async (req, res, next)=> {
 })
 
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Example app listening on port http://localhost:${PORT}`)
 })
