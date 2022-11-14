@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+}
+
+.navbarstyle{
+    padding-top: 20px;
+    background: #E14D2A;
+    height: 70px;
+    margin-bottom: 50px;
+}
+
+.middlespace{
+    padding-top: 25px;
+}
+
+h1{
+    font-weight: 400;
+}
+
+span{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.form-control-file{
+    /* background-color: red;
+    color: white;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer; */
+    padding-left: 450px;
+
+}
+
+
+.webname{
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    margin-right: 445px;
+    color: black; 
+    font-size: 40px;
+}
+
+.nav-item{
+    font-size: 25px;
+}
+
+.logo{
+    margin-left: 445px;
+}
+
+.btn{
+    background-color: #E14D2A;
+}
+
+.container-fluid{
+    background-color: #E14D2A;
+    padding-top: 20px;
+}
+
+input{
+    writing-mode: horizontal-tb !important;
+    display: inline block;
+    -webkit-rtl-ordering: logical;
+}
+
+.container-bottom{
+    height: 208px;
+    background-color: #E14D2A;
+}
+
+.sec-1{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.p-1{
+    margin-bottom: 100px;
+}
+
